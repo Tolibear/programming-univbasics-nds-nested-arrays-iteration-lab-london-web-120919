@@ -41,7 +41,10 @@ def total_even_pairs(src)
   array_index = 0
 
   while array_index < src.count do
-
-    array_index += 1
+      sum_of_elements = (src[array_index][0] + src[array_index][1])
+      if ( sum_of_elements % 2 = 0)
+        sum_evens += sum_of_elements
+      end
+      array_index += 1
   end
 end
