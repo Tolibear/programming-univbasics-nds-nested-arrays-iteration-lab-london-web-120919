@@ -10,7 +10,7 @@ def join_ingredients(src)
   array_count = 0
 
   while array_count < src.length do
-    new_array << "I love #{src[0][0]} and #{src[0][1]} on my pizza"
+    new_array << "I love #{src[array_count][0]} and #{src[array_count][1]} on my pizza"
     array_count += 1
   end
   new_array
