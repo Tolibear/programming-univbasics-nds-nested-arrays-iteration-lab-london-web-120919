@@ -13,6 +13,7 @@ def join_ingredients(src)
     new_array << "I love src[0][0] and src[0][1] on my pizza"
     array_count += 1
   end
+  new_array
 end
 
 def find_greater_pair(src)
