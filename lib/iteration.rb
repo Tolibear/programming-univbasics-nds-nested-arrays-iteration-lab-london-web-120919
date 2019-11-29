@@ -26,7 +26,6 @@ def find_greater_pair(src)
     big_number << src[array_index].max()
     array_index += 1
   end
-  end
   big_number
 end
 
